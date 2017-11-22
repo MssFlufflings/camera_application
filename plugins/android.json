@@ -9,6 +9,12 @@
   "installed_plugins": {
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.albam.camara"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "com.albam.camara"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.albam.camara"
     }
   },
   "dependent_plugins": {}

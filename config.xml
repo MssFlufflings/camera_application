@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.albam.camara" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Camera_project</name>
+    <name>Alba's camera App</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
     </description>
@@ -16,6 +16,8 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <platform name="android">
+        <icon src="res/icon/android/icon.png" />
+        <splash density="port-xhdpi" src="res/screen/android/screen.png" />
         <allow-intent href="market:*" />
     </platform>
     <platform name="ios">
@@ -24,4 +26,6 @@
     </platform>
     <engine name="android" spec="^6.3.0" />
     <plugin name="cordova-plugin-whitelist" spec="^1.3.3" />
+    <plugin name="cordova-plugin-camera" spec="^3.0.0" />
+    <plugin name="cordova-plugin-splashscreen" spec="^4.1.0" />
 </widget>
